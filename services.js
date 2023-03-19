@@ -1,0 +1,13 @@
+document.querySelector(".cross").style.display="none";
+document.querySelector(".sidenavbar").addEventListener("click",()=>{
+    document.querySelector(".sidenavbar").classList.toggle("sidenavbargo")
+    if(document.querySelector(".sidenavbar").classList.toggle("sidenavbargo")){
+        document.querySelector(".hamb").style.display="inline";
+        document.querySelector(".cross").style.display="none";
+    }else{        
+        document.querySelector(".hamb").style.display="none";
+        setTimeout(()=>{
+            document.querySelector(".cross").style.display="inline";
+        },300)
+    }
+})
