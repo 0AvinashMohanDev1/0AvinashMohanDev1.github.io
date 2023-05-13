@@ -151,12 +151,14 @@ body {
 /*  */
 
 .home {
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home-img img {
-  width: 35vw;
+.home-img  img{
+  width: 380px;
+  height: 450px;
   animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
@@ -528,15 +530,21 @@ span {
   transform: translate3d(0px, -8px, -8px);
 }
 
-/* github */
+/*--------------------------------------------------------------------github--------------------------------------------------------------------*/ 
+.stats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #github-stats {
-  margin-bottom: 70px;
+  margin: 70px;
 }
 #resume-button-2 {
   list-style: none;
 }
 
 #github-stats {
+  align-items: center;
   justify-content: center;
 }
 /* ----------------------------------------------------------------- */
