@@ -394,19 +394,21 @@ span {
     margin: .3rem 0 1rem;
   }
   .project-layer a {
-    display:inline-block;
+    display:flex;
     justify-content: center;
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color);
+    background: rgb(0, 238, 255);
     border-radius: 50%;
   }
   .project-layer a i {
     font-size: 2rem;
-    color: var(--bg-oxford-red-2);
+    color: rgb(7, 7, 7);
   }
-   
+   .pro-Links{
+    display: flex;
+   }
   /*-----------------------------------*\
     #Contact
   \*-----------------------------------*/
